@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS로 계산기 만들기 - 이민수</title>
+    <link rel="stylesheet" href="../css/JS로 계산기 만들기.css">
+</head>
+<body>
+    <div class="cal">
+        <div class="cal3">
+            <div class="cal2">
+                <div class="asdf">
+                    <input id="first-num" class="qwet" type="text" placeholder=""/>
+                    <select id="calcal" class="qwet">
+                        <option> + </option>
+                        <option> - </option>
+                        <option> * </option>
+                        <option> / </option>
+                    </select>
+                    <input id="second-num" class="qwet" type="text" placeholder=""/>
+                    <button onclick="a()" id="complete">계산하기</button>
+                </div>
+        </div>
+                <div class="result">
+                    <a id="qwer">결과: <span id="inner-text"></span></a>        
+                </div>
+        </div>
+    </div>
+    <script src="../javascript/JS로 계산기 만들기.js"></script>
+</body>
+</html>
